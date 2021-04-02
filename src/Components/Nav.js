@@ -1,18 +1,19 @@
 import React, { useState } from 'react';
-import './../App.css';
+import './../styles/style.css';
 import { Link } from 'react-router-dom';
 
 function Nav() {
   const [toggle, setToggle] = useState(false);
   const navStyle = {
     color: 'white',
+    textDecoration: 'none',
   };
 
   return (
     <nav>
       <div className="logo">
         <Link style={navStyle} to="/">
-          <h3 onClick={() => setToggle(!toggle)}>Logo</h3>
+          <h3>Logo</h3>
         </Link>
       </div>
       <ul className={toggle ? 'open nav-links ' : ' nav-links '}>
