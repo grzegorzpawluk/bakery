@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/bakery/static/css/main.326f355a.chunk.css",
-    "main.js": "/bakery/static/js/main.8f6c4554.chunk.js",
-    "main.js.map": "/bakery/static/js/main.8f6c4554.chunk.js.map",
+    "main.css": "/bakery/static/css/main.636dee5e.chunk.css",
+    "main.js": "/bakery/static/js/main.81165eef.chunk.js",
+    "main.js.map": "/bakery/static/js/main.81165eef.chunk.js.map",
     "runtime-main.js": "/bakery/static/js/runtime-main.d1d9555c.js",
     "runtime-main.js.map": "/bakery/static/js/runtime-main.d1d9555c.js.map",
     "static/js/2.763c47a3.chunk.js": "/bakery/static/js/2.763c47a3.chunk.js",
@@ -10,18 +10,19 @@
     "static/js/3.bb1c3997.chunk.js": "/bakery/static/js/3.bb1c3997.chunk.js",
     "static/js/3.bb1c3997.chunk.js.map": "/bakery/static/js/3.bb1c3997.chunk.js.map",
     "index.html": "/bakery/index.html",
-    "static/css/main.326f355a.chunk.css.map": "/bakery/static/css/main.326f355a.chunk.css.map",
+    "static/css/main.636dee5e.chunk.css.map": "/bakery/static/css/main.636dee5e.chunk.css.map",
     "static/js/2.763c47a3.chunk.js.LICENSE.txt": "/bakery/static/js/2.763c47a3.chunk.js.LICENSE.txt",
     "static/media/baton_bounty.074e1496.jpg": "/bakery/static/media/baton_bounty.074e1496.jpg",
     "static/media/keto_torcik.220c8336.jpg": "/bakery/static/media/keto_torcik.220c8336.jpg",
     "static/media/lesny_mech.85cbfd3e.jpg": "/bakery/static/media/lesny_mech.85cbfd3e.jpg",
     "static/media/tort_mocno_czekoladowy1.546943d9.png": "/bakery/static/media/tort_mocno_czekoladowy1.546943d9.png",
-    "static/media/tort_mocno_czekoladowy2.d952a405.png": "/bakery/static/media/tort_mocno_czekoladowy2.d952a405.png"
+    "static/media/tort_mocno_czekoladowy2.d952a405.png": "/bakery/static/media/tort_mocno_czekoladowy2.d952a405.png",
+    "static/media/tort_urodzinowy.b5ede6ad.jpg": "/bakery/static/media/tort_urodzinowy.b5ede6ad.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d1d9555c.js",
     "static/js/2.763c47a3.chunk.js",
-    "static/css/main.326f355a.chunk.css",
-    "static/js/main.8f6c4554.chunk.js"
+    "static/css/main.636dee5e.chunk.css",
+    "static/js/main.81165eef.chunk.js"
   ]
 }
