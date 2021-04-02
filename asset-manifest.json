@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bakery/static/css/main.3e50e374.chunk.css",
+    "main.css": "/bakery/static/css/main.326f355a.chunk.css",
     "main.js": "/bakery/static/js/main.8f6c4554.chunk.js",
     "main.js.map": "/bakery/static/js/main.8f6c4554.chunk.js.map",
     "runtime-main.js": "/bakery/static/js/runtime-main.d1d9555c.js",
@@ -10,7 +10,7 @@
     "static/js/3.bb1c3997.chunk.js": "/bakery/static/js/3.bb1c3997.chunk.js",
     "static/js/3.bb1c3997.chunk.js.map": "/bakery/static/js/3.bb1c3997.chunk.js.map",
     "index.html": "/bakery/index.html",
-    "static/css/main.3e50e374.chunk.css.map": "/bakery/static/css/main.3e50e374.chunk.css.map",
+    "static/css/main.326f355a.chunk.css.map": "/bakery/static/css/main.326f355a.chunk.css.map",
     "static/js/2.763c47a3.chunk.js.LICENSE.txt": "/bakery/static/js/2.763c47a3.chunk.js.LICENSE.txt",
     "static/media/baton_bounty.074e1496.jpg": "/bakery/static/media/baton_bounty.074e1496.jpg",
     "static/media/keto_torcik.220c8336.jpg": "/bakery/static/media/keto_torcik.220c8336.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.d1d9555c.js",
     "static/js/2.763c47a3.chunk.js",
-    "static/css/main.3e50e374.chunk.css",
+    "static/css/main.326f355a.chunk.css",
     "static/js/main.8f6c4554.chunk.js"
   ]
 }
