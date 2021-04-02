@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bakery/static/css/main.e606c7aa.chunk.css",
-    "main.js": "/bakery/static/js/main.43f67d7b.chunk.js",
-    "main.js.map": "/bakery/static/js/main.43f67d7b.chunk.js.map",
+    "main.js": "/bakery/static/js/main.7975ed0a.chunk.js",
+    "main.js.map": "/bakery/static/js/main.7975ed0a.chunk.js.map",
     "runtime-main.js": "/bakery/static/js/runtime-main.d1d9555c.js",
     "runtime-main.js.map": "/bakery/static/js/runtime-main.d1d9555c.js.map",
     "static/js/2.2ad3d3d6.chunk.js": "/bakery/static/js/2.2ad3d3d6.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.d1d9555c.js",
     "static/js/2.2ad3d3d6.chunk.js",
     "static/css/main.e606c7aa.chunk.css",
-    "static/js/main.43f67d7b.chunk.js"
+    "static/js/main.7975ed0a.chunk.js"
   ]
 }
