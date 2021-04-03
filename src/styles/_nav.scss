@@ -1,6 +1,6 @@
 nav {
   height: 10vh;
-  background-color: #5b78c7;
+  background-color: $nav-background-color;
   justify-content: space-around;
   align-items: center;
 }
@@ -12,7 +12,6 @@ nav {
   position: absolute;
   justify-content: space-around;
   align-items: center;
-  color: rgb(226, 226, 226);
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 20px;
@@ -21,7 +20,6 @@ nav {
 
 .nav-links {
   display: flex;
-
   list-style: none;
   width: 50%;
   height: 100%;
@@ -31,6 +29,7 @@ nav {
 }
 
 .nav-links a {
+  // color can be changed in nav.js -> navStyle
   color: rgb(226, 226, 226);
   text-decoration: none;
   letter-spacing: 3px;
@@ -74,7 +73,7 @@ nav {
 
   .nav-links {
     position: fixed;
-    background-color: #5b78c7;
+    background-color: $nav-background-color;
     height: 100vh;
     width: 100%;
     flex-direction: column;

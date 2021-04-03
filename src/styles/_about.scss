@@ -1,0 +1,38 @@
+.about {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-content: center;
+}
+
+.about-txt {
+  justify-self: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.about-txt p {
+  font-family: Georgia, serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-align: justify;
+}
+
+.about-img {
+  position: relative;
+  justify-self: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.about-img img {
+  height: 600px;
+}

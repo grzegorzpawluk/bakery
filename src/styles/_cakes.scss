@@ -1,8 +1,9 @@
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
   grid-column-gap: 20px;
   grid-row-gap: 20px;
+  justify-content: space-around;
 }
 
 .gallery img {
@@ -10,9 +11,10 @@
 }
 
 .transition-cake {
-  height: 500px;
-  width: 400px;
+  height: 400px;
+  width: 300px;
   position: relative;
+  justify-self: center;
 }
 
 .transition-cake img {
@@ -42,6 +44,22 @@
 
 .baton-bounty::after {
   content: 'baton Bounty';
+}
+
+.tort-urodzinowy::after {
+  content: 'tort urodzinowy';
+}
+
+.dough::after {
+  content: 'wyrabianie ciasta';
+}
+
+.hands::after {
+  content: 'przygotowania';
+}
+
+.cake1::after {
+  content: 'tort';
 }
 
 .fade::after {

@@ -6,6 +6,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Home from './components/Home';
 import Cakes from './components/Cakes';
+import Footer from './components/Footer';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
