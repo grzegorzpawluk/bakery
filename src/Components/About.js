@@ -5,8 +5,12 @@ import about from './../pictures/about.jpg';
 function About() {
   return (
     <div>
+      <br></br>
       <h1>O mnie</h1>
       <div className="about">
+        <div className="about-img">
+          <img src={about} alt="o mnie" />
+        </div>
         <div className="about-txt">
           <p>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -17,9 +21,6 @@ function About() {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum."
           </p>
-        </div>
-        <div className="about-img">
-          <img src={about} alt="o mnie" />
         </div>
       </div>
     </div>

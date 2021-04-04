@@ -3,6 +3,7 @@
 @import './_cakes.scss';
 @import './about';
 @import './contact';
+@import './home';
 
 * {
   margin: 0;
@@ -28,4 +29,13 @@ h1 {
   background-color: $nav-background-color;
   color: white;
   text-align: center;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    display: block;
+    position: static;
+    margin-top: auto;
+  }
 }
