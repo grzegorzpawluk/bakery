@@ -1,3 +1,23 @@
+.formTxt {
+  justify-self: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.formTxt p {
+  font-family: Georgia, serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-align: justify;
+}
+
 .form {
   position: relative;
   width: 50%;
@@ -39,22 +59,22 @@
   transform: translateX(-100%);
 }
 
-.content-name {
+.contentName {
   position: absolute;
   bottom: 5px;
   left: 0px;
   transition: all 0.3s ease;
 }
 
-.form input:focus + .label-name .content-name,
-.form input:valid + .label-name .content-name {
+.form input:focus + .labelName .contentName,
+.form input:valid + .labelName .contentName {
   transform: translateY(-150%);
   font-size: 14px;
   color: #5fa8d3;
 }
 
-.form input:focus + .label-name::after,
-.form input:valid + .label-name::after {
+.form input:focus + .labelName::after,
+.form input:valid + .labelName::after {
   transform: translateX(0%);
   transition: all 0.3s ease;
 }

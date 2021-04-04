@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import './../styles/style.css';
+//import './../styles/style.css';
+import NavStyles from './Nav.module.css';
 import { Link } from 'react-router-dom';
+import classes from 'classnames';
 
 function Nav() {
   const [toggle, setToggle] = useState(false);
@@ -11,12 +13,18 @@ function Nav() {
 
   return (
     <nav>
-      <div className="logo">
+      <div className={NavStyles.logo}>
         <Link style={navStyle} to="/">
           <h3>Logo</h3>
         </Link>
       </div>
-      <ul className={toggle ? 'open nav-links ' : ' nav-links '}>
+      <ul
+        className={
+          toggle
+            ? classes(NavStyles.open, NavStyles.navLinks)
+            : NavStyles.navLinks
+        }
+      >
         <Link style={navStyle} to="/cakes">
           <li onClick={() => setToggle(!toggle)}>Ciasta</li>
         </Link>
@@ -28,14 +36,18 @@ function Nav() {
         </Link>
       </ul>
       <div
-        class={toggle ? 'burger toggle' : 'burger '}
+        class={
+          toggle
+            ? classes(NavStyles.burger, NavStyles.toggle)
+            : NavStyles.burger
+        }
         onClick={() => {
           setToggle(!toggle);
         }}
       >
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+        <div class={NavStyles.line1}></div>
+        <div class={NavStyles.line2}></div>
+        <div class={NavStyles.line3}></div>
       </div>
     </nav>
   );

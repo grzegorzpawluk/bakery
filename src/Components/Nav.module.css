@@ -1,8 +1,12 @@
 nav {
   height: 10vh;
-  background-color: $nav-background-color;
+  background-color: #5b78c7;
   justify-content: space-around;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 .logo {
@@ -18,7 +22,7 @@ nav {
   transform: translate(15vw, 50%);
 }
 
-.nav-links {
+.navLinks {
   display: flex;
   list-style: none;
   width: 50%;
@@ -28,8 +32,8 @@ nav {
   margin-left: auto;
 }
 
-.nav-links a {
-  // color can be changed in nav.js -> navStyle
+.navLinks a {
+  /* color can be changed in nav.js -> navStyle */
   color: rgb(226, 226, 226);
   text-decoration: none;
   letter-spacing: 3px;
@@ -51,14 +55,14 @@ nav {
 }
 
 @media screen and (max-width: 1024px) {
-  .nav-links {
+  .navLinks {
     width: 60%;
   }
 }
 
 @media screen and (max-width: 768px) {
   nav {
-    position: relative;
+    /* position: relative; */
   }
 
   .burger {
@@ -71,9 +75,9 @@ nav {
     display: block;
   }
 
-  .nav-links {
+  .navLinks {
     position: fixed;
-    background-color: $nav-background-color;
+    background-color: #5b78c7;
     height: 100vh;
     width: 100%;
     flex-direction: column;
@@ -82,11 +86,11 @@ nav {
     transition: all 1s ease-out;
     z-index: 1;
   }
-  .nav-links a {
+  .navLinks a {
     font-size: 24px;
   }
 
-  .nav-links.open {
+  .navLinks.open {
     clip-path: circle(1100px at 90% -10%);
     -webkit-clip-path: circle(1100px at 90% -10%);
     pointer-events: all;

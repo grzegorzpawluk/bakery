@@ -10,19 +10,19 @@
   width: 100%;
 }
 
-.transition-cake {
+.transitionCake {
   height: 400px;
   width: 300px;
   position: relative;
   justify-self: center;
 }
 
-.transition-cake img {
+.transitionCake img {
   width: 100%;
   height: 100%;
 }
 
-.transition-image {
+.transitionImage {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -30,23 +30,23 @@
   transition: opacity 0.5s ease;
 }
 
-.transition-image:hover {
+.transitionImage:hover {
   opacity: 1;
 }
 
-.lesny-mech::after {
+.lesnyMech::after {
   content: 'Leśny mech';
 }
 
-.keto-torcik::after {
+.ketoTorcik::after {
   content: 'Keto torcik';
 }
 
-.baton-bounty::after {
+.batonBounty::after {
   content: 'baton Bounty';
 }
 
-.tort-urodzinowy::after {
+.tortUrodzinowy::after {
   content: 'tort urodzinowy';
 }
 
