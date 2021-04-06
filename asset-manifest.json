@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/bakery/static/css/main.548b4fea.chunk.css",
-    "main.js": "/bakery/static/js/main.3503acd9.chunk.js",
-    "main.js.map": "/bakery/static/js/main.3503acd9.chunk.js.map",
-    "runtime-main.js": "/bakery/static/js/runtime-main.350df1c0.js",
-    "runtime-main.js.map": "/bakery/static/js/runtime-main.350df1c0.js.map",
-    "static/js/2.5f870cd7.chunk.js": "/bakery/static/js/2.5f870cd7.chunk.js",
-    "static/js/2.5f870cd7.chunk.js.map": "/bakery/static/js/2.5f870cd7.chunk.js.map",
-    "static/js/3.340b26c8.chunk.js": "/bakery/static/js/3.340b26c8.chunk.js",
-    "static/js/3.340b26c8.chunk.js.map": "/bakery/static/js/3.340b26c8.chunk.js.map",
+    "main.css": "/bakery/static/css/main.f024b5aa.chunk.css",
+    "main.js": "/bakery/static/js/main.90286f3e.chunk.js",
+    "main.js.map": "/bakery/static/js/main.90286f3e.chunk.js.map",
+    "runtime-main.js": "/bakery/static/js/runtime-main.87d31a95.js",
+    "runtime-main.js.map": "/bakery/static/js/runtime-main.87d31a95.js.map",
+    "static/js/2.a789c4eb.chunk.js": "/bakery/static/js/2.a789c4eb.chunk.js",
+    "static/js/2.a789c4eb.chunk.js.map": "/bakery/static/js/2.a789c4eb.chunk.js.map",
+    "static/js/3.0ce93f7d.chunk.js": "/bakery/static/js/3.0ce93f7d.chunk.js",
+    "static/js/3.0ce93f7d.chunk.js.map": "/bakery/static/js/3.0ce93f7d.chunk.js.map",
     "index.html": "/bakery/index.html",
-    "static/css/main.548b4fea.chunk.css.map": "/bakery/static/css/main.548b4fea.chunk.css.map",
-    "static/js/2.5f870cd7.chunk.js.LICENSE.txt": "/bakery/static/js/2.5f870cd7.chunk.js.LICENSE.txt",
+    "static/css/main.f024b5aa.chunk.css.map": "/bakery/static/css/main.f024b5aa.chunk.css.map",
+    "static/js/2.a789c4eb.chunk.js.LICENSE.txt": "/bakery/static/js/2.a789c4eb.chunk.js.LICENSE.txt",
     "static/media/about.ae4c5435.jpg": "/bakery/static/media/about.ae4c5435.jpg",
     "static/media/baton_bounty.074e1496.jpg": "/bakery/static/media/baton_bounty.074e1496.jpg",
     "static/media/cake1.a3d5068f.jpg": "/bakery/static/media/cake1.a3d5068f.jpg",
@@ -26,9 +26,9 @@
     "static/media/tort_urodzinowy.b5ede6ad.jpg": "/bakery/static/media/tort_urodzinowy.b5ede6ad.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.350df1c0.js",
-    "static/js/2.5f870cd7.chunk.js",
-    "static/css/main.548b4fea.chunk.css",
-    "static/js/main.3503acd9.chunk.js"
+    "static/js/runtime-main.87d31a95.js",
+    "static/js/2.a789c4eb.chunk.js",
+    "static/css/main.f024b5aa.chunk.css",
+    "static/js/main.90286f3e.chunk.js"
   ]
 }
