@@ -1,5 +1,7 @@
 import React from 'react';
-import './../styles/style.css';
+// import './../styles/style.css';
+import CakesStyles from './Cakes.module.css';
+import classes from 'classnames';
 import lesnyMech from './../pictures/lesny_mech.jpg';
 import ketoTorcik from './../pictures/keto_torcik.jpg';
 import batonBounty from './../pictures/baton_bounty.jpg';
@@ -14,34 +16,82 @@ function Cakes() {
   return (
     <div>
       <h1>Ciasta</h1>
-      <div className="gallery">
-        <div className="transition-cake fade lesny-mech">
-          <img src={lesnyMech} alt="lesny_mech" />
+      <div className={CakesStyles.gallery}>
+        <div
+          className={classes(
+            CakesStyles.transitionCake,
+            CakesStyles.fade,
+            CakesStyles.lesnyMech
+          )}
+        >
+          <img src={lesnyMech} alt="lesnyMech" />
         </div>
-        <div className="transition-cake fade keto-torcik">
-          <img src={ketoTorcik} alt="keto_torcik" />
+        <div
+          className={classes(
+            CakesStyles.transitionCake,
+            CakesStyles.fade,
+            CakesStyles.ketoTorcik
+          )}
+        >
+          <img src={ketoTorcik} alt="ketoTorcik" />
         </div>
-        <div className="transition-cake fade baton-bounty">
+        <div
+          className={classes(
+            CakesStyles.transitionCake,
+            CakesStyles.fade,
+            CakesStyles.batonBounty
+          )}
+        >
           <img src={batonBounty} alt="batonBounty" />
         </div>
-        <div className="transition-cake fade tort-urodzinowy">
+        <div
+          className={classes(
+            CakesStyles.transitionCake,
+            CakesStyles.fade,
+            CakesStyles.tortUrodzinowy
+          )}
+        >
           <img src={tortUrodzinowy} alt="tortUrodzinowy" />
         </div>
-        <div className="transition-cake fade">
+        <div
+          className={classes(
+            CakesStyles.transitionCake,
+            CakesStyles.fade,
+            CakesStyles.tortMocnoCzekoladowy1
+          )}
+        >
           <img src={tortMocnoCzekoladowy1} alt="tortMocnoCzekoladowy1" />
           <img
-            className="transition-image"
+            className={CakesStyles.transitionImage}
             src={tortMocnoCzekoladowy2}
             alt="tortMocnoCzekoladowy2"
           />
         </div>
-        <div className="transition-cake fade hands">
+        <div
+          className={classes(
+            CakesStyles.transitionCake,
+            CakesStyles.fade,
+            CakesStyles.hands
+          )}
+        >
           <img src={hands} alt="hands" />
         </div>
-        <div className="transition-cake fade dough">
+        <div
+          className={classes(
+            CakesStyles.transitionCake,
+            CakesStyles.fade,
+            CakesStyles.dough
+          )}
+        >
           <img src={dough} alt="dough" />
         </div>
-        <div className="transition-cake fade cake1">
+        <div
+          className={classes(
+            CakesStyles.transitionCake,
+            CakesStyles.fade,
+            CakesStyles.cake1
+          )}
+        >
           <img src={cake1} alt="cake1" />
         </div>
       </div>

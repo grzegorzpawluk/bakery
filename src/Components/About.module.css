@@ -1,18 +1,18 @@
 .about {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 600px));
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   justify-content: space-evenly;
 }
 
-.about-txt {
+.aboutTxt {
   justify-self: center;
   padding: 20px;
   margin: 20px;
 }
 
-.about-txt p {
+.aboutTxt p {
   font-family: Georgia, serif;
   font-size: 25px;
   letter-spacing: 2px;
@@ -26,28 +26,25 @@
   text-align: justify;
 }
 
-.about-img {
+.aboutImg {
   position: relative;
   justify-self: center;
   padding: 20px;
   margin: 20px;
 }
 
-.about-img img {
+.aboutImg img {
   height: 70vh;
 }
 
 @media screen and (max-width: 768px) {
-  .about-img {
+  .aboutImg {
     position: static;
     padding: 0;
     margin: 0;
   }
-  .about-img img {
+  .aboutImg img {
     width: 100%;
     height: 100%;
-  }
-  .about-img2 img {
-    width: 100%;
   }
 }

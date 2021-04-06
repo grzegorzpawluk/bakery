@@ -1,0 +1,18 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #5b78c7;
+  color: white;
+  text-align: center;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    display: block;
+    position: static;
+    margin-top: auto;
+  }
+}

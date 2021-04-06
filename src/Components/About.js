@@ -1,5 +1,6 @@
 import React from 'react';
-import './../styles/style.css';
+// import './../styles/style.css';
+import AboutStyles from './About.module.css';
 import about from './../pictures/about.jpg';
 
 function About() {
@@ -7,11 +8,11 @@ function About() {
     <div>
       <br></br>
       <h1>O mnie</h1>
-      <div className="about">
-        <div className="about-img">
+      <div className={AboutStyles.about}>
+        <div className={AboutStyles.aboutImg}>
           <img src={about} alt="o mnie" />
         </div>
-        <div className="about-txt">
+        <div className={AboutStyles.aboutTxt}>
           <p>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
