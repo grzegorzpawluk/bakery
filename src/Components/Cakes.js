@@ -30,7 +30,7 @@ function Cakes() {
           className={classes(
             CakesStyles.transitionCake,
             CakesStyles.fade,
-            CakesStyles.lesnyMech
+            CakesStyles.ketoTorcik
           )}
         >
           <img src={ketoTorcik} alt="ketoTorcik" />

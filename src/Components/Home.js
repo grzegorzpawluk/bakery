@@ -1,16 +1,16 @@
 import React from 'react';
 // import './../styles/style.css';
-import AboutStyles from './About.module.css';
+import HomeStyles from './Home.module.css';
 import homePicture from './../pictures/home_page.jpg';
 
 function Home() {
   return (
     <div>
-      <div className={AboutStyles.about}>
-        <div className={AboutStyles.aboutImg}>
+      <div className={HomeStyles.home}>
+        <div className={HomeStyles.homeImg}>
           <img src={homePicture} alt="homePicture" />
         </div>
-        <div className={AboutStyles.aboutTxt}>
+        <div className={HomeStyles.homeTxt}>
           <p>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
