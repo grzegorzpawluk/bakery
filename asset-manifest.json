@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/bakery/static/css/main.f024b5aa.chunk.css",
-    "main.js": "/bakery/static/js/main.90286f3e.chunk.js",
-    "main.js.map": "/bakery/static/js/main.90286f3e.chunk.js.map",
-    "runtime-main.js": "/bakery/static/js/runtime-main.87d31a95.js",
-    "runtime-main.js.map": "/bakery/static/js/runtime-main.87d31a95.js.map",
-    "static/js/2.a789c4eb.chunk.js": "/bakery/static/js/2.a789c4eb.chunk.js",
-    "static/js/2.a789c4eb.chunk.js.map": "/bakery/static/js/2.a789c4eb.chunk.js.map",
-    "static/js/3.0ce93f7d.chunk.js": "/bakery/static/js/3.0ce93f7d.chunk.js",
-    "static/js/3.0ce93f7d.chunk.js.map": "/bakery/static/js/3.0ce93f7d.chunk.js.map",
+    "main.css": "/bakery/static/css/main.08e465a6.chunk.css",
+    "main.js": "/bakery/static/js/main.2076c74a.chunk.js",
+    "main.js.map": "/bakery/static/js/main.2076c74a.chunk.js.map",
+    "runtime-main.js": "/bakery/static/js/runtime-main.670a3e3f.js",
+    "runtime-main.js.map": "/bakery/static/js/runtime-main.670a3e3f.js.map",
+    "static/css/2.d87d07f4.chunk.css": "/bakery/static/css/2.d87d07f4.chunk.css",
+    "static/js/2.b9a7ec4b.chunk.js": "/bakery/static/js/2.b9a7ec4b.chunk.js",
+    "static/js/2.b9a7ec4b.chunk.js.map": "/bakery/static/js/2.b9a7ec4b.chunk.js.map",
+    "static/js/3.855f93df.chunk.js": "/bakery/static/js/3.855f93df.chunk.js",
+    "static/js/3.855f93df.chunk.js.map": "/bakery/static/js/3.855f93df.chunk.js.map",
     "index.html": "/bakery/index.html",
-    "static/css/main.f024b5aa.chunk.css.map": "/bakery/static/css/main.f024b5aa.chunk.css.map",
-    "static/js/2.a789c4eb.chunk.js.LICENSE.txt": "/bakery/static/js/2.a789c4eb.chunk.js.LICENSE.txt",
+    "static/css/2.d87d07f4.chunk.css.map": "/bakery/static/css/2.d87d07f4.chunk.css.map",
+    "static/css/main.08e465a6.chunk.css.map": "/bakery/static/css/main.08e465a6.chunk.css.map",
+    "static/js/2.b9a7ec4b.chunk.js.LICENSE.txt": "/bakery/static/js/2.b9a7ec4b.chunk.js.LICENSE.txt",
     "static/media/about.ae4c5435.jpg": "/bakery/static/media/about.ae4c5435.jpg",
     "static/media/baton_bounty.074e1496.jpg": "/bakery/static/media/baton_bounty.074e1496.jpg",
     "static/media/cake1.a3d5068f.jpg": "/bakery/static/media/cake1.a3d5068f.jpg",
@@ -26,9 +28,10 @@
     "static/media/tort_urodzinowy.b5ede6ad.jpg": "/bakery/static/media/tort_urodzinowy.b5ede6ad.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.87d31a95.js",
-    "static/js/2.a789c4eb.chunk.js",
-    "static/css/main.f024b5aa.chunk.css",
-    "static/js/main.90286f3e.chunk.js"
+    "static/js/runtime-main.670a3e3f.js",
+    "static/css/2.d87d07f4.chunk.css",
+    "static/js/2.b9a7ec4b.chunk.js",
+    "static/css/main.08e465a6.chunk.css",
+    "static/js/main.2076c74a.chunk.js"
   ]
 }
