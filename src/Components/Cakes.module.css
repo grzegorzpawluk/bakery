@@ -1,4 +1,21 @@
-.gallery {
+.cake {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.cakeImage {
+  width: 90vw;
+  height: 70vh;
+  padding: 20px;
+  align-content: center;
+}
+.cakeImage img {
+  width: 90vw;
+  height: 90vh;
+  object-fit: contain;
+}
+/* .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
   grid-column-gap: 20px;
@@ -80,4 +97,4 @@
 
 .fade:hover::after {
   opacity: 0.5;
-}
+} */
